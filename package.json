@@ -1,0 +1,46 @@
+{
+  "name": "admin-vue3-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "axios": "^1.5.0",
+    "dayjs": "^1.11.9",
+    "element-plus": "^2.3.12",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.1",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.6",
+    "screenfull": "^6.0.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "@types/lodash": "^4.14.197",
+    "@types/node": "^20.5.9",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.66.1",
+    "typescript": "^5.0.2",
+    "unocss": "^0.55.6",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
